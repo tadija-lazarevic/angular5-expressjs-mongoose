@@ -1,0 +1,6 @@
+{
+  "name": "MEAN Stack",
+  "description": "Basic MEAN stack",
+  "repository": "https://github.com/tadija-lazarevic/angular5-expressjs-mongoose.git",
+  "keywords": ["angular5", "express", "node", "mongodb", "mongoose"]
+}

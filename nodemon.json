@@ -1,0 +1,21 @@
+{
+  "verbose": false,
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "server/**/*.spec.ts"
+  ],
+  "watch": [
+    "server/**/*.ts"
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "DB_URL" : "mongodb://localhost",
+    "DB_PORT" : 12345,
+    "DB_NAME": "stack",
+    "APP_URL": "http://localhost",
+    "APP_PORT": 4300
+  },
+  "ext": "ts",
+  "exec": "ts-node ./server/server.ts"
+}

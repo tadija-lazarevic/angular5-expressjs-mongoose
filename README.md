@@ -8,6 +8,7 @@ This is basic skeleton project for Angular5, MongoDB and Mongoose.
 ## Inspired by
 
 https://github.com/dalenguyen/rest-api-node-typescript/
+
 https://github.com/vladotesanovic/angular2-express-starter
 
 

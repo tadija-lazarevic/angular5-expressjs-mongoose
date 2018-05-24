@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently --kill-others \"npm run server:run\" \"ng serve --aot --progress=false\"",
+    "start": "concurrently --kill-others \"npm run server:run\" \"ng serve --aot -o --progress=false\"",
     "lint:client": "ng lint",
     "lint:server": "tslint './server/**/*.ts' -c ./server/tslint.json --fix",
     "test:client": "ng test --watch false",

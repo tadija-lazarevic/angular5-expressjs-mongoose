@@ -5,9 +5,10 @@ export class Routes {
   public userController: UserController = new UserController();
 
   public routes(app): void {
-    app.route('/asdf').get((req: Request, res: Response) => {
+    // Test route
+    app.route('/api/test').get((req: Request, res: Response) => {
       res.status(200).send({
-        message: 'GET request successfulll!!!!'
+        message: 'It is alive!'
       });
     });
 

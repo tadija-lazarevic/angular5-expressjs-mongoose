@@ -8,7 +8,7 @@ class App {
   public app: express.Application;
   public routePrv: Routes = new Routes();
   public mongoUrl = `${process.env.DB_URL}:${process.env.DB_PORT}/${process.env.DB_NAME}`;
-  public appUrl = `${process.env.APP_URL}:${process.env.APP_PORT}`;
+  public clientAppUrl = `${process.env.CLIENT_APP_URL}:${process.env.CLIENT_APP_PORT}`;
 
   constructor() {
     this.app = express();
@@ -30,7 +30,7 @@ class App {
   private configHeaders(): void {
     this.app.use((req, res, next) => {
       // Website you wish to allow to connect
-      res.setHeader('Access-Control-Allow-Origin', this.appUrl);
+      res.setHeader('Access-Control-Allow-Origin', this.clientAppUrl);
 
       // Request methods you wish to allow
       res.setHeader(

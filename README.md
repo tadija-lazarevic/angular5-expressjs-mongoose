@@ -1,6 +1,6 @@
 ## Stack
 
-This is basic skeleton project for Angular5, MongoDB and Mongoose written in Typescript. There is no much 3rd party libraries so it is good fit for starter project.
+This is basic skeleton project for Angular5, MongoDB and Mongoose written in Typescript which uses [Angular Material](https://material.angular.io/) and [Angular Flex-Layout](https://github.com/angular/flex-layout) UI libraries.
 
 ## Build
 
@@ -15,7 +15,8 @@ mongod --port=12345 (or whichever port you are using) --dbpath=/path/to/yourdb
 npm run start
 
 # Application should start on your default browser on localhost:4200 address. 
-# If everything works ok you should see : "It is alive!" message" 
+# If everything works ok you should see "Test API" button and after clicking 
+# it you should get toaster with "It is alive" message.
 
 ```
 # Config
